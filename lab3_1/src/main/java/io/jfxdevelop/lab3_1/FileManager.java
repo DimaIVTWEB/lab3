@@ -8,9 +8,9 @@ import java.nio.file.StandardCopyOption;
 
 public class FileManager {
     public static void copyFile(String sourcePath, String targetPath) throws IOException {
-        // Проверка на null или пустую строку
+        // Проверка на пустую строку
         if (sourcePath == null || sourcePath.trim().isEmpty()) {
-            throw new IllegalArgumentException("Исходный путь не может быть null или пустым.");
+            throw new IllegalArgumentException("Исходный путь не может быть пустым.");
         }
         if (targetPath == null || targetPath.trim().isEmpty()) {
             throw new IllegalArgumentException("Целевой путь не может быть null или пустым.");

@@ -13,10 +13,9 @@
 
     <Label fx:id="welcomeText"/>
 
-    <!-- Кнопки управления -->
     <HBox spacing="10">
         <Button text="Выбрать исходный файл" onAction="#onSelectSourceFile"/>
-        <Button text="Выбрать целевой файл" onAction="#onSelectTargetFile"/>
+        <Button text="Копировать в" onAction="#onSelectTargetFile"/>
     </HBox>
 
 </VBox>

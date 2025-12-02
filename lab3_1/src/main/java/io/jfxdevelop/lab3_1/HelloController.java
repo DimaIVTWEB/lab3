@@ -24,11 +24,6 @@ public class HelloController {
     private String selectedSourceFile = null;
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
-    }
-
-    @FXML
     protected void onSelectSourceFile() {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Выберите исходный файл");
